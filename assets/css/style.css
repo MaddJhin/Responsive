@@ -2,7 +2,7 @@ body{
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .panel-vertical{
@@ -23,8 +23,8 @@ body{
 }
 
 .container{
-    float: left;
-    width: 70%;
+    float: right;
+    width: 75%;
 }
 
 .container-heading{
