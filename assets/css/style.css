@@ -30,7 +30,7 @@ a{
 }
 
 .panel-header{
-    background-color: whitesmoke;
+    background-color: darkgrey;
     padding: 10px 8px;
 }
 
@@ -56,6 +56,15 @@ a{
     text-decoration: none;
 }
 
+.link-vertical:hover{
+    background-color: #084D08;
+    color: white;
+}
+
+.link-vertical-current{
+    background-color: #032103;
+    color: white;
+}
 
 .link-img{
     width: 42px;
