@@ -3,26 +3,62 @@ body{
     max-width: 960px;
     margin: 0 auto;
     padding-top: 40px;
+    background-color: beige;
+}
+
+h1, h2, h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 19px;
+}
+
+a{
+    text-decoration: none;
 }
 
 .panel-vertical{
     float: left;
-    width: 260px;
+
 }
 
 .panel-header{
-    border: 3px solid blue;
-    background-color: black;
-}
-
-.panel-body{
-    border: 3px solid green;
-    background-color: gray;
+    background-color: whitesmoke;
+    padding: 10px 8px;
 }
 
 .panel-linkbar{
-    padding: 10px;
+    padding: 10px 0px;
     display: block;
+    background-color: white;
+}
+
+.ul-vertical{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.link-vertical{
+    display: block;
+    color: #000;
+    padding: 10px 8px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+.link-img{
+    width: 42px;
+    height: 42px;
+    padding: 10px; 
 }
 
 .container{
@@ -31,11 +67,18 @@ body{
 }
 
 .container-heading{
-    border: 3px dotted black;
     padding: 20px;
+    background-color: white;
 }
 
 .container-body{
     padding: 20px;
-    border: 3px dotted gray;
+    background-color: whitesmoke;
 }
+
+.img-left{
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
