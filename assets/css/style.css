@@ -1,8 +1,4 @@
 body{
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    padding-top: 40px;
     background-color: beige;
 }
 
@@ -23,9 +19,14 @@ a{
     text-decoration: none;
 }
 
+.page{
+    max-width: 960px;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
 .panel-vertical{
     float: left;
-
 }
 
 .panel-header{
@@ -37,6 +38,7 @@ a{
     padding: 10px 0px;
     display: block;
     background-color: white;
+    text-align: center;
 }
 
 .ul-vertical{
@@ -63,7 +65,7 @@ a{
 
 .container{
     float: right;
-    width: 70%;
+    width: 672px;
 }
 
 .container-heading{
@@ -82,3 +84,95 @@ a{
     padding-bottom: 10px;
 }
 
+
+@media screen and (max-width: 960px){
+    body{
+        background-color: cadetblue;
+        
+    }
+
+    h1{
+        font-size: 19px;
+    }
+
+    .panel-vertical{
+        width: 100px;
+        margin: 0 5%;
+    }
+
+    .panel-linkbar{
+        display: table;
+    }
+
+    .container{
+        margin-right: 5%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-color: whitesmoke;
+    }
+
+    .panel-vertical {
+        float: none;
+        width: auto;
+    }
+
+    .panel-header{
+        float: left;
+    }
+    
+    a.link-vertical {
+        float: right;
+    }
+
+    .container{
+        margin: 0 5%;
+        width: 90%
+    }
+
+    .panel-linkbar{
+        position: fixed;
+        bottom: 0;
+        width: 90%;
+        display: table;
+    }
+
+    @media screen and (max-width: 680px){
+        body{
+            background-color: whitesmoke;
+        }
+    
+        .page{
+            padding: 0;
+            margin: 0;
+        }
+
+        .panel-vertical {
+            float: none;
+            width: auto;
+            margin: 0;
+        }
+    
+        .panel-header{
+            float: left;
+        }
+        
+        a.link-vertical {
+            float: right;
+        }
+    
+        .container{
+            margin: 0;
+            width: 100%;
+        }
+    
+        .panel-linkbar{
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            display: table;
+        }
+}
