@@ -1,93 +1,148 @@
 {
-  "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "picture": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://johndoe.com",
-    "summary": "A summary of John Doe...",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "basics": {
+      "name": "Francisco Carrera",
+      "label": "Web Developer, Game Designer, Amateur Brewer ",
+      "picture": "",
+      "email": "franciscocarrer@gmail.com",
+      "phone": "(787) 671-4047",
+      "website": "",
+      "summary": "I am a web developer, game designer, armature brewer, and puzzle solver extraordinaire.   I started my own business from the ground up, getting back in the black in less than a year and successfully selling it off. After acquiring an extensive background as an entrepreneur, I transitioned into game production and expanded my skill set to include systems design and game development.   Through game design I discovered how much I loved coding and the logical structure of it. Now I’ve seen multiple project through, adapting to the situation at hand, wearing multiple hats, and putting my skills as a developer, designer, and producer to use. ",
+      "location": {
+        "address": "5790 Folkstone Ln",
+        "postalCode": "FL 32822",
+        "city": "Orlando",
+        "countryCode": "US",
+        "region": "Florida"
+      },
+      "profiles": [
+        {
+          "network": "",
+          "username": "",
+          "url": ""
+        }
+      ]
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "john",
-      "url": "http://twitter.com/john"
-    }]
-  },
-  "work": [{
-    "company": "Company",
-    "position": "President",
-    "website": "http://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "website": "http://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description...",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "University",
-    "area": "Software Development",
-    "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "gpa": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "website": "http://publication.com",
-    "summary": "Description..."
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "Javascript"
-    ]
-  }],
-  "languages": [{
-    "name": "English",
-    "level": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference..."
-  }]
-}
+    "work": [
+      {
+        "company": "Netherstrike Studios",
+        "position": "Developer/Producer",
+        "website": "",
+        "startDate": "2017-01-01",
+        "endDate": "2017-08-20",
+        "summary": "Main developer in mobile physics puzzle game.",
+        "highlights": [
+          "Speared head project from setting initial repository to publishing on android marketplace ",
+          "Fully implemented systems, UI, animations, and particle effects ",
+          "Called on to anticipate and solve potential problems quickly and efficiently."
+        ]
+      },
+      {
+        "company": "Backlot Realities",
+        "position": "Developer, Producer",
+        "website": "http://backlotrealities.com/",
+        "startDate": "2016-09-01",
+        "endDate": "2016-12-01",
+        "summary": "As part of a small VR studio team, entrusted to transform tech demo into a cohesive game experience. Responsible for prioritizing, assigning, and tracking tasks, along with performing white-box, gray-box, and black-box testing. ",
+        "highlights": [
+          "Designed and implemented new puzzles, achieving a closer unified theme and a more logical progression to game flow, while remaining true to the original vision.",
+          "Scripted new functionality in Unity using C# in order to deliver a polished project on time.",
+          "Reprioritized deliverables and milestones, successfully hitting every milestone and finishing project by due date"
+        ]
+      },
+      {
+        "company": "CelleC Games",
+        "position": "Game Designer, Producer, QA",
+        "website": "http://www.cellecgames.com/",
+        "startDate": "2017-05-01",
+        "endDate": "2017-08-30",
+        "summary": "Responsible for working in engine, performing QA test, and managing a 20-person team.",
+        "highlights": [
+          "Responsible for backlogs, sprints, meetings, product specifications, user stories, test plans, and release checklists, for design, development, art, and writing.",
+          "Communicated across management and multidiscipline teams, leading weekly studio meetings.",
+          "Assisted the studio with transition into agile development and SCRUM.   "
+        ]
+      },
+      {
+        "company": "Additional Experience",
+        "position": "Developer, Game Designer",
+        "website": "",
+        "startDate": "2014-08-01",
+        "endDate": "2016-09-01",
+        "summary": "Worked as a freelancer fulfilling various roles",
+        "highlights": [
+          "Designed, prototyped and implemented multiple game systems.",
+          "Tracked, documented, and resolved bugs throughout development in a QA capacity.",
+          "Created a scaling micro-transaction system with accompanying monetization plan. ",
+          "Designed, implemented and animated creature abilities into custom game engine.",
+          "Created a comprehensive marketing and community outreach plan."
+        ]
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "Full Sail University",
+        "area": "Game Design",
+        "studyType": "Master",
+        "startDate": "2015-09-01",
+        "endDate": "2016-09-17",
+        "gpa": "3.92",
+        "courses": []
+      },
+      {
+        "institution": "Carnegie Mellon University",
+        "area": "Business Administration",
+        "studyType": "Bachelor",
+        "startDate": "2003-08-08",
+        "endDate": "2007-04-20",
+        "gpa": "3.02",
+        "courses": []
+      }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [
+      {
+        "name": "Full Stack Web Development",
+        "level": "",
+        "keywords": [
+          "HTML",
+          "CSS",
+          "Javascript",
+          "JQuery",
+          "React.js",
+          "Node.js",
+          "Express.js",
+          "MySQL",
+          "MongoDB"
+        ]
+      },
+      {
+        "name": "Game Development",
+        "level": "",
+        "keywords": [
+          "C#",
+          "Unity3D",
+          "UE4",
+          "Source Control",
+          "JIRA",
+          "Scrum",
+          "QA",
+          "VR Development",
+          "Cross-Platform Development"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Fully Fluent"
+      },
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      }
+    ],
+    "interests": [],
+    "references": []
+  }
