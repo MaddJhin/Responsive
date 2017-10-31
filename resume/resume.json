@@ -16,9 +16,14 @@
       },
       "profiles": [
         {
-          "network": "",
-          "username": "",
-          "url": ""
+          "network": "LinkedIn",
+          "username": "Francisco Carrera",
+          "url": "https://www.linkedin.com/in/frcarrera/"
+        },
+        {
+          "network": "GitHub",
+          "username": "MaddJhin",
+          "url": "https://github.com/MaddJhin"
         }
       ]
     },
@@ -109,6 +114,7 @@
           "HTML",
           "CSS",
           "Javascript",
+          "PHP",
           "JQuery",
           "React.js",
           "Node.js",
